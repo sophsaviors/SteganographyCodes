@@ -32,7 +32,7 @@ for (int i=0; i<img.pixels.length; i+=3) {
   // convert Red to a binary sequence
   String binaryRed = binary(pixelRed, 8);
   // get the last bit of the Red binary sequence
-  // and add it to the binary sequence of audio byte
+  // and add it to the binary sequence of the audio byte
   binaryAudioByte = binaryAudioByte + binaryRed.charAt(7);
 
   // repeat the process for the other colors
